@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build">
+
+<!-- METAPACKGAGE FIXED CONF -->
+<property name="masysma.target"    value="_"/>
+<property name="mdpc.section"      value="metapackages"/>
+<property name="mdpc.arch"         value="all"/>
+<property name="mdpc.file.install" value=""/>
+
+<!-- METAPACKGAGE SPECIFIC DETAILS -->
+<property name="mdpc.name" value="mdvl-meta-minbuild"/>
+<property name="mdpc.depends"
+	>mdvl-meta-always, libxml-dom-perl, libgit-wrapper-perl,
+	libproc-simple-perl, libgit-repository-perl,
+	libfile-copy-recursive-perl,
+	config-package-dev, gcc, g++, gnat, devscripts,
+	libidn11-dev, libgcrypt20-dev, libgnutls28-dev,
+	libncurses-dev, libxml2-dev</property>
+<property name="mdpc.descrs" value="MDVL build dependencies"/>
+<property name="mdpc.descrl">
+ Package to install basic build dependencies for MDVL packages.
+ This may not cover all dependencies but gives a suitable starting point
+ for non-interactive containers etc.
+</property>
+
+<!-- CI INTEGRATION -->
+<target name="package_triggered" depends="package">
+	<property name="masysma.ci.trigger" value="newver"/>
+</target>
+
+<!-- CONST TPL IMPORT -->
+<property environment="env"/>
+<condition property="masysma.internal.includepath.rel" value="${env.MDVL_CI_PHOENIX_ROOT}" else=".."><isset property="env.MDVL_CI_PHOENIX_ROOT"/></condition>
+<property name="masysma.internal.includepath" location="${masysma.internal.includepath.rel}"/>
+<property name="masysma.internal.loadpath" value="${masysma.internal.includepath}/co-build/ant-build-template.xml"/>
+<condition property="masysma.internal.load" value="file://${masysma.internal.loadpath}" else="https://raw.githubusercontent.com/m7a/co-build/master/ant-build-template.xml"><resourceexists><file file="${masysma.internal.loadpath}"/></resourceexists></condition>
+<import><url url="${masysma.internal.load}"/></import>
+
+</project>
