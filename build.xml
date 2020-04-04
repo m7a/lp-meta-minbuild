@@ -11,8 +11,8 @@
 <property name="mdpc.name" value="mdvl-meta-minbuild"/>
 <property name="mdpc.depends"
 	>mdvl-meta-always, libxml-dom-perl, libgit-wrapper-perl,
-	libproc-simple-perl, libgit-repository-perl,
-	libfile-copy-recursive-perl,
+	libproc-simple-perl, libgit-repository-perl, libtry-tiny-perl,
+	libfile-copy-recursive-perl, libdancer2-perl,
 	config-package-dev, gcc, g++, gnat, devscripts,
 	libidn11-dev, libgcrypt20-dev, libgnutls28-dev,
 	libncurses-dev, libxml2-dev</property>
