@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.1) stable; urgency=medium
+
+  * Add dependency on qt5-default.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Sun, 19 Apr 2020 21:17:13 +0200
+
 mdvl-meta-minbuild (1.0.0) stable; urgency=medium
 
   * Package created with MDPC 2

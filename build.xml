@@ -15,7 +15,7 @@
 	libfile-copy-recursive-perl, libdancer2-perl,
 	config-package-dev, gcc, g++, gnat, devscripts,
 	libidn11-dev, libgcrypt20-dev, libgnutls28-dev,
-	libncurses-dev, libxml2-dev</property>
+	libncurses-dev, libxml2-dev, qt5-default</property>
 <property name="mdpc.descrs" value="MDVL build dependencies"/>
 <property name="mdpc.descrl">
  Package to install basic build dependencies for MDVL packages.
