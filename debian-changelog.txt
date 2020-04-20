@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.2) stable; urgency=medium
+
+  * Add dependency on erlang-dev.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Mon, 20 Apr 2020 14:41:46 +0200
+
 mdvl-meta-minbuild (1.0.1) stable; urgency=medium
 
   * Add dependency on qt5-default.
