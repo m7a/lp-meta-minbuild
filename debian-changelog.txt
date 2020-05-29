@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.3) stable; urgency=medium
+
+  * Add dependency on `bison`.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Fri, 29 May 2020 10:25:37 +0200
+
 mdvl-meta-minbuild (1.0.2) stable; urgency=medium
 
   * Add dependency on erlang-dev.
