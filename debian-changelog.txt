@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.4) stable; urgency=medium
+
+  * Add dependency on `zlib`.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Wed, 03 Jun 2020 01:34:45 +0200
+
 mdvl-meta-minbuild (1.0.3) stable; urgency=medium
 
   * Add dependency on `bison`.
