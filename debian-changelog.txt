@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.6) stable; urgency=medium
+
+  * Switch from qt5-default to qtbase5-dev
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Mon, 21 Dec 2020 22:38:59 +0100
+
 mdvl-meta-minbuild (1.0.5) stable; urgency=medium
 
   * Update to include `cmake` and `libpulse-dev` (newly needed).
