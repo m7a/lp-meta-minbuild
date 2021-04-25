@@ -17,7 +17,7 @@
 	ocl-icd-opencl-dev, ocl-icd-libopencl1,
 	libidn11-dev, libgcrypt20-dev, libgnutls28-dev, bison,
 	libncurses-dev, libxml2-dev, qtbase5-dev, erlang-dev,
-	cmake, libpulse-dev</property>
+	cmake, maven, libpulse-dev</property>
 <property name="mdpc.descrs" value="MDVL build dependencies"/>
 <property name="mdpc.descrl">
  Package to install basic build dependencies for MDVL packages.

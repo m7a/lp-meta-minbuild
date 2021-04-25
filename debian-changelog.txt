@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.9) stable; urgency=medium
+
+  * Add dependency on maven.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Sun, 25 Apr 2021 22:54:35 +0200
+
 mdvl-meta-minbuild (1.0.8) stable; urgency=medium
 
   * Add other required OpenCL dependencies.
