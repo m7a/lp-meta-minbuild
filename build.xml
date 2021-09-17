@@ -14,7 +14,7 @@
 	libproc-simple-perl, libgit-repository-perl, libtry-tiny-perl,
 	libfile-copy-recursive-perl, libdancer2-perl, zlib1g-dev,
 	config-package-dev, gcc, g++, gnat, devscripts, opencl-headers,
-	ocl-icd-opencl-dev, ocl-icd-libopencl1,
+	ocl-icd-opencl-dev, ocl-icd-libopencl1, libxi-dev,
 	libidn11-dev, libgcrypt20-dev, libgnutls28-dev, bison,
 	libncurses-dev, libxml2-dev, qtbase5-dev, erlang-dev,
 	cmake, maven, libpulse-dev</property>

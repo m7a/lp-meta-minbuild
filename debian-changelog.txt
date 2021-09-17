@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.10) stable; urgency=medium
+
+  * Add dependency on libxi-dev for compiling `highlight-pointer`.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Fri, 17 Sep 2021 23:09:37 +0200
+
 mdvl-meta-minbuild (1.0.9) stable; urgency=medium
 
   * Add dependency on maven.
