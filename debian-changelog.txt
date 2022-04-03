@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.11) stable; urgency=medium
+
+  * Add dependency on gprbuild for compiling `alire`.
+
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Sun, 03 Apr 2022 22:14:13 +0200
+
 mdvl-meta-minbuild (1.0.10) stable; urgency=medium
 
   * Add dependency on libxi-dev for compiling `highlight-pointer`.
