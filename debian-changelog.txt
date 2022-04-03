@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.12) stable; urgency=medium
+
+  * Fix syntax in debian-changelog.
+
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Sun, 03 Apr 2022 22:19:37 +0200
+
 mdvl-meta-minbuild (1.0.11) stable; urgency=medium
 
   * Add dependency on gprbuild for compiling `alire`.
@@ -8,64 +14,64 @@ mdvl-meta-minbuild (1.0.10) stable; urgency=medium
 
   * Add dependency on libxi-dev for compiling `highlight-pointer`.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Fri, 17 Sep 2021 23:09:37 +0200
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Fri, 17 Sep 2021 23:09:37 +0200
 
 mdvl-meta-minbuild (1.0.9) stable; urgency=medium
 
   * Add dependency on maven.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Sun, 25 Apr 2021 22:54:35 +0200
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Sun, 25 Apr 2021 22:54:35 +0200
 
 mdvl-meta-minbuild (1.0.8) stable; urgency=medium
 
   * Add other required OpenCL dependencies.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Thu, 31 Dec 2020 03:39:43 +0100
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Thu, 31 Dec 2020 03:39:43 +0100
 
 mdvl-meta-minbuild (1.0.7) stable; urgency=medium
 
   * Add dependency on opencl-headers.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Thu, 31 Dec 2020 03:21:59 +0100
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Thu, 31 Dec 2020 03:21:59 +0100
 
 mdvl-meta-minbuild (1.0.6) stable; urgency=medium
 
   * Switch from qt5-default to qtbase5-dev
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Mon, 21 Dec 2020 22:38:59 +0100
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Mon, 21 Dec 2020 22:38:59 +0100
 
 mdvl-meta-minbuild (1.0.5) stable; urgency=medium
 
   * Update to include `cmake` and `libpulse-dev` (newly needed).
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Mon, 23 Nov 2020 18:01:49 +0100
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Mon, 23 Nov 2020 18:01:49 +0100
 
 mdvl-meta-minbuild (1.0.4) stable; urgency=medium
 
   * Add dependency on `zlib`.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Wed, 03 Jun 2020 01:34:45 +0200
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Wed, 03 Jun 2020 01:34:45 +0200
 
 mdvl-meta-minbuild (1.0.3) stable; urgency=medium
 
   * Add dependency on `bison`.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Fri, 29 May 2020 10:25:37 +0200
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Fri, 29 May 2020 10:25:37 +0200
 
 mdvl-meta-minbuild (1.0.2) stable; urgency=medium
 
   * Add dependency on erlang-dev.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Mon, 20 Apr 2020 14:41:46 +0200
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Mon, 20 Apr 2020 14:41:46 +0200
 
 mdvl-meta-minbuild (1.0.1) stable; urgency=medium
 
   * Add dependency on qt5-default.
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Sun, 19 Apr 2020 21:17:13 +0200
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Sun, 19 Apr 2020 21:17:13 +0200
 
 mdvl-meta-minbuild (1.0.0) stable; urgency=medium
 
   * Package created with MDPC 2
 
- -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Sat, 21 Mar 2020 23:48:15 +0100
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Sat, 21 Mar 2020 23:48:15 +0100
