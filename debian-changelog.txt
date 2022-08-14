@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.14) stable; urgency=medium
+
+  * Add libsodium dependency.
+
+ -- Ma_Sys.ma Linux-Fan <Ma_Sys.ma@web.de>  Sun, 14 Aug 2022 02:44:00 +0200
+
 mdvl-meta-minbuild (1.0.13) stable; urgency=medium
 
   * Add rust dependency (bupstash compilation).
