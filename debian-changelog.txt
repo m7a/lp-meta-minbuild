@@ -1,3 +1,9 @@
+mdvl-meta-minbuild (1.0.15) stable; urgency=medium
+
+  * Add dependency on dh-dkms
+
+ -- Ma_Sys.ma Linux-Fan <info@masysma.net>  Sun, 06 Aug 2023 16:14:14 +0200
+
 mdvl-meta-minbuild (1.0.14) stable; urgency=medium
 
   * Add libsodium dependency.

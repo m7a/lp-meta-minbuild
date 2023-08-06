@@ -10,7 +10,7 @@
 <!-- METAPACKGAGE SPECIFIC DETAILS -->
 <property name="mdpc.name" value="mdvl-meta-minbuild"/>
 <property name="mdpc.depends"
-	>mdvl-meta-always, libxml-dom-perl, libgit-wrapper-perl,
+	>mdvl-meta-always, dh-dkms, libxml-dom-perl, libgit-wrapper-perl,
 	libproc-simple-perl, libgit-repository-perl, libtry-tiny-perl,
 	libfile-copy-recursive-perl, libdancer2-perl, zlib1g-dev,
 	config-package-dev, gcc, g++, gnat, devscripts, opencl-headers,
